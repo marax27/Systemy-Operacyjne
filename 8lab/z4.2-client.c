@@ -24,6 +24,7 @@
 
 int main(int argc, char *argv[])
 {
+	struct sockaddr_in s;
 	int sockfd, numbytes;  
 	char buf[MAXDATASIZE];
 	struct hostent *he;
